@@ -55,9 +55,6 @@ class TaskC3 {
         m=cs.nextInt();
         double getWeight;
         getWeight = getWeight (m);
-
-
-
         System.out.println("Вывод: " );
         System.out.println(getWeight);
 
