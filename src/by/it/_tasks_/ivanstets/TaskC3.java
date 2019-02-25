@@ -29,6 +29,39 @@ package by.it._tasks_.ivanstets;
 
 
 */
-class TaskC3 {
+import java.util.Scanner;
 
-}
+class TaskC3 {
+     private static double weight (int m){
+
+          double gM = 3.86;
+          double gE = 9.81;
+          double del = gM/gE;
+          double result;
+         result = del*m;
+
+
+         return result;
+      }
+
+    public static void main(String[] args) {
+        Scanner cs = new Scanner(System.in);
+        int m;
+        System.out.println("Ввод: ");
+        m=cs.nextInt();
+        double getWeight;
+        getWeight = weight (m);
+
+
+
+        System.out.println("Вывод: " );
+        System.out.printf("%.2f",getWeight);
+
+
+
+
+
+
+
+    }
+    }
