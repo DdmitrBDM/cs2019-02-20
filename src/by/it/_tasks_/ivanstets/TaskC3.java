@@ -30,18 +30,22 @@ package by.it._tasks_.ivanstets;
 
 */
 import java.util.Scanner;
+import java.math.RoundingMode;
+import java.math.BigDecimal;
 
 class TaskC3 {
-     private static double weight (int m){
+     private static double getWeight (int m){
 
           double gM = 3.86;
           double gE = 9.81;
           double del = gM/gE;
           double result;
          result = del*m;
+         double answer;
+         answer= new BigDecimal(result).setScale(2, RoundingMode.HALF_UP).doubleValue();
 
 
-         return result;
+         return answer;
       }
 
     public static void main(String[] args) {
@@ -50,12 +54,12 @@ class TaskC3 {
         System.out.println("Ввод: ");
         m=cs.nextInt();
         double getWeight;
-        getWeight = weight (m);
+        getWeight = getWeight (m);
 
 
 
         System.out.println("Вывод: " );
-        System.out.printf("%.2f",getWeight);
+        System.out.println(getWeight);
 
 
 
