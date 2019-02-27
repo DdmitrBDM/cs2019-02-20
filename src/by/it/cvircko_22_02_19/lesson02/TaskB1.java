@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.cvircko_22_02_19.lesson02;
 
 /*
 Выводим квадрат числа
@@ -19,5 +19,21 @@ int i=sc.nextInt();
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
-}
+/*
+Выводим квадрат числа
+*/
+
+//    public static class Solution {
+
+        public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int i=sc.nextInt();
+            int s = i*i;
+            int a = (char) s;
+            System.out.println(a);
+        }
+    }
+

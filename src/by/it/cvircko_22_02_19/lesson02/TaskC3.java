@@ -1,4 +1,6 @@
-package by.it._tasks_.lesson02;
+package by.it.cvircko_22_02_19.lesson02;
+
+
 
 /*
 Ускорение свободного падения на Земле и Марсе таково:
@@ -29,6 +31,22 @@ package by.it._tasks_.lesson02;
 
 
 */
+import java.util.Scanner;
+
+
+
 class TaskC3 {
 
+    static double getWeight(int weight){
+    double result = weight/9.81*3.86;
+    return Math.round(result*100)/100.0;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int weight = sc.nextInt();
+        double w = getWeight(weight);
+        System.out.println(w);
+
+    }
 }
