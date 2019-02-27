@@ -33,6 +33,23 @@ Scanner sc=new Scanner(System.in);
 
  */
 
-class TaskA1 {
+import java.util.Scanner;
 
+class TaskA1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int i = sc.nextInt();
+        int j = sc.nextInt();
+        int sum=i+j;
+        int sub=i-j;
+        int mul=i*j;
+        int div=i/j;
+        int mod=i%j;
+        System.out.println(sum+""+sub+""+mul+""+div+""+mod
+        );
+
+
+
+
+    }
 }
