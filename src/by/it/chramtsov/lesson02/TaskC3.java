@@ -43,8 +43,10 @@ class TaskC3 {
         System.out.println(d);
 
 
+
+        }
 }
-    }
+
 
 
 
