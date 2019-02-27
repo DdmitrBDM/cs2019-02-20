@@ -34,7 +34,13 @@ import java.util.Scanner;
 
 */
 class TaskC3 {
+  static  double getWeight(int weight){
+      int r100=
+        return 0;
+
+    }
     public static void main (String[] args) {
+
         Scanner sc=new Scanner(System.in);
         double i = sc.nextInt();
         double d =i*3.86/9.81;
