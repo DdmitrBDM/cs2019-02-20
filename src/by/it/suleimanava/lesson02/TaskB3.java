@@ -22,3 +22,6 @@ class TaskB3 {
 //        System.out.println("Годом");
     }
 }
+
+
+
