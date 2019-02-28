@@ -22,6 +22,13 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
+        String a="Зайку бросила хозяйка";
+        String b="Под дождем остался зайка";
+        String c="Со скамейки слезть не смог ";
+        String d="Весь до ниточки промок";
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println(a+"\n"+b+"\n"+c+"\n"+d+"\n");
+
 
     }
 
