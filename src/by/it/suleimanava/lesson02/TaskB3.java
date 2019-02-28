@@ -9,7 +9,7 @@ package by.it.suleimanava.lesson02;
         4. Выведенный текст должен соответствовать заданию.
 */        
 class TaskB3 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 //        String s = "C";
 //        System.out.println("Новым Годом");
 //        System.out.println("C Новым");
