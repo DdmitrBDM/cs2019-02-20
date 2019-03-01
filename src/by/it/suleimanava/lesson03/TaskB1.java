@@ -25,7 +25,8 @@ float f - присваивание в десятичном формате
 
 strictfp class TaskB1 {
     public static  void main(String[] args) {
-        double d = 0;
+        double d = 111
+                ;
         double b = 0;
         double o = 0;
         double h = 0;

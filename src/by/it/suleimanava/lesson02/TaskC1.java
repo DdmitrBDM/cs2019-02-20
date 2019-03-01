@@ -19,7 +19,7 @@ class TaskC1 {
         int j = sc.nextInt();
         int sum = i + j;
 
-        System.out.println("sum" + " " + "=" + " " + sum);
+        System.out.println("Sum" + " " + "=" + " " + sum);
 
 
     }
