@@ -45,7 +45,7 @@ class TaskA1 {
         int mul= a*b;
         int div= a/b;
         int mod= a%b;
-        System.out.println(sum+" "+sub+" "+mul+" "+div+" "mod);//подчёркивает mod, и не исполняет код//
+        System.out.println(sum+" "+sub+" "+mul+" "+div+" "+mod);
         double da= sc.nextInt();
         double db= sc.nextInt();
         double dsum= a+b;
@@ -53,8 +53,7 @@ class TaskA1 {
         double dmul= a*b;
         double ddiv= a/b;
         double dmod= a%b;
-        System.out.println(dsum+" "+dsub+" "+dmul+" "+ddiv+" "dmod);/*подчёркивает mod, и выдаёт ошибку
-        синтаксиса/*
+        System.out.println(dsum+" "+dsub+" "+dmul+" "+ddiv+" "+dmod);
     }
 
 }
