@@ -38,11 +38,11 @@ class TaskC3 {
 
 
       double d =i*3.86/9.81;
-      int f=(int) (i*100);
+      int f=(int) (d*100);
       double t=d*100-f;
       if(t>=0.5)
-      return (f+1)/100;
-              else return f/100;
+      return (f+1)/100.0;
+              else return f/100.0;
 
 
 
