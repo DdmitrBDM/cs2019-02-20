@@ -22,7 +22,8 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a =
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println("Ночь, улица, фонарь, аптека, \nБессмысленный и тусклый свет.\nЖиви ещё хоть четверть века — \nВсё будет так. Исхода нет.");
     }
 
 }

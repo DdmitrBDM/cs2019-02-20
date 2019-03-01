@@ -45,7 +45,16 @@ class TaskA1 {
         int mul= i*j;
         int div=i/j;
         int mod=i%j;
-        System.out.println(sum+ " "+ sub);
+        System.out.println(sum+ " "+ sub+" "+mul+" "+div+" "+mod);
+
+        double d=i*1.0;
+        double f=j*1.0;
+        double dsum= d+f;
+        double dsub= d-f;
+        double dmul= d*f;
+        double ddiv=d/f;
+        double dmod=d%f;
+        System.out.println(dsum+ " "+ dsub+" "+dmul+" "+ddiv+" "+dmod);
     }
 
 

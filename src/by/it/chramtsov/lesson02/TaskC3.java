@@ -34,19 +34,26 @@ import java.util.Scanner;
 
 */
 class TaskC3 {
-  static  double getWeight(int weight){
-      int r100=
-        return 0;
+  private static  double getWeight(int i){
+
+
+      double d =i*3.86/9.81;
+      int f=(int) (i*100);
+      double t=d*100-f;
+      if(t>=0.5)
+      return (f+1)/100;
+              else return f/100;
+
+
+
 
     }
     public static void main (String[] args) {
-
         Scanner sc=new Scanner(System.in);
-        double i = sc.nextInt();
-        double d =i*3.86/9.81;
-        BigDecimal bd = new BigDecimal(d).setScale(2, RoundingMode.HALF_EVEN);
-        d = bd.doubleValue();
-        System.out.println(d);
+        int i = sc.nextInt();
+        double q=getWeight(i);
+
+        System.out.println(q);
 
 
 
