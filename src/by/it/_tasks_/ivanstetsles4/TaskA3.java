@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets3;
+package by.it._tasks_.ivanstetsles4;
 /*
 Существует ли пара?
 Ввести с клавиатуры три целых числа.

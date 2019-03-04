@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets3;
+package by.it._tasks_.ivanstetsles4;
 
 /*
 Вывести таблицу умножения 10 x 10 (двоныйм циклом),

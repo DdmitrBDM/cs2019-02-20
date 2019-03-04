@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets3;
+package by.it._tasks_.ivanstetsles4;
 
 /*
 Выведите на экран в цикле 10 раз фразу

@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets2;
+package by.it._tasks_.ivanstetsles3;
 /*
 Lesson 03. Task B1. Литералы.
 

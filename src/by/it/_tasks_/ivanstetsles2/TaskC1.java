@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets;
+package by.it._tasks_.ivanstetsles2;
 
 import java.util.Scanner;
 
@@ -12,7 +12,6 @@ import java.util.Scanner;
 Sum = 60
 
 */
-import java.util.Scanner;
 
 public class TaskC1 {
 

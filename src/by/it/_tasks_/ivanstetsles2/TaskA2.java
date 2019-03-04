@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets;
+package by.it._tasks_.ivanstetsles2;
 
 /*
 напишите тело main программы которая выводит на экран 5 строк

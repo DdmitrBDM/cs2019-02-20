@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets3;
+package by.it._tasks_.ivanstetsles4;
 /*
 С клавиатуры вводится некоторое число.
 Пусть считается сумма int sum=1+2+3+4+5+... и т.д.

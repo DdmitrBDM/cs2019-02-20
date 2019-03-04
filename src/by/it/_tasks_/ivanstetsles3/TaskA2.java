@@ -1,6 +1,4 @@
-package by.it._tasks_.ivanstets2;
-
-import java.util.Scanner;
+package by.it._tasks_.ivanstetsles3;
 
 /*
 Lesson 03. Task A2. Стихотворение

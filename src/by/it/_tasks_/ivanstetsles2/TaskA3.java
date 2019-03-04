@@ -1,4 +1,4 @@
-package by.it._tasks_.ivanstets;
+package by.it._tasks_.ivanstetsles2;
 /*
 Измените переменные и строку вывода в программе так,
 чтобы она рассчитывала и печатала следующее выражение
