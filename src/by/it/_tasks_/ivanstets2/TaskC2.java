@@ -19,13 +19,34 @@ package by.it._tasks_.ivanstets2;
     4. Метод sumDigitsInNumber не должен ничего выводить на экран.
     5. Метод sumDigitsInNumber должен правильно возвращать сумму всех цифр в числе number.
 */
+
+import java.util.Scanner;
+
 public class TaskC2 {
 
+    public static int sumDigitsInNumber(int number) {
+
+        int sum = 0;
+        while (number > 0) {
+            sum = sum + number % 10;
+            number = number / 10;
+        }
 
 
+        return sum;
 
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
+    }
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Write number: ");
+        int number = sc.nextInt();
+        int result;
+        result = sumDigitsInNumber(number);
+
+
+        System.out.printf("Sum :" +  '\n' + result);
+    }
 
 }
