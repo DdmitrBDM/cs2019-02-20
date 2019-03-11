@@ -26,38 +26,41 @@ package by.it.ivanstets.ivanstetsles4;
 256
 
  */
+
 import java.util.Scanner;
+
 public class TaskC2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int date = sc.nextInt();
         int month = sc.nextInt();
-        int i = date;
-        int j = month;
-        if (j == 1)
+        if (month == 1)
             System.out.println(date);
-        if (j == 2)
+        if (month == 2)
             System.out.println(date + 28);
-        if (j == 3)
+        if (month == 3)
             System.out.println(date + 59);
-        if (j == 4)
+        if (month == 4)
             System.out.println(date + 90);
-        if (j == 5)
+        if (month == 5)
             System.out.println(date + 120);
-        if (j == 6)
+        if (month == 6)
             System.out.println(date + 151);
-        if (j == 7)
+        if (month == 7)
             System.out.println(date + 181);
-        if (j == 8)
+        if (month == 8)
             System.out.println(date + 212);
-        if (j == 9)
+        if (month == 9)
             System.out.println(date + 243);
-        if (j == 10)
+        if (month == 10)
             System.out.println(date + 273);
-        if (j == 11)
+        if (month == 11)
             System.out.println(date + 304);
-        if (j == 12)
+        if (month == 12)
             System.out.println(date + 334);
+        if (month > 12)
+            System.out.println("В году всего 12 месяцев!");
     }
+
 }

@@ -45,11 +45,11 @@ public class TaskC1 {
         System.out.println("Какую вы хотите зарплату в $$$?");
         double sum = sc.nextInt();
         double sum1 = sum + (sum * 0.5);
-        double sum2 = sum;
         if (3000 < sum || sum < 300) {
             System.out.println("Мы вам перезвоним!");
         } else {
-            dot:
+
+            salary:
             for (int month = 0; month <= 14; month++) {
                 switch (month) {
                     case 0:
@@ -58,7 +58,7 @@ public class TaskC1 {
                     case 1:
                         System.out.println("За январь начислено $" + sum1);
                         if (sum1 == 666) {
-                            break dot;
+                            break salary;
                         }
                         break;
                     case 2:
@@ -74,16 +74,16 @@ public class TaskC1 {
                         System.out.println("За май начислено $" + sum1);
                         break;
                     case 6:
-                        System.out.println("За июнь начислено $" + sum2);
-                        if (sum2 == 666) {
-                            break dot;
+                        System.out.println("За июнь начислено $" + sum);
+                        if (sum == 666) {
+                            break salary;
                         }
                         break;
                     case 7:
-                        System.out.println("За июль начислено $" + sum2);
+                        System.out.println("За июль начислено $" + sum);
                         break;
                     case 8:
-                        System.out.println("За август начислено $" + sum2);
+                        System.out.println("За август начислено $" + sum);
                         break;
                     case 9:
                         System.out.println("За сентябрь начислено $" + sum1);
