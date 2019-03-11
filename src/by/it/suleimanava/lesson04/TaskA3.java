@@ -23,5 +23,4 @@ package by.it.suleimanava.lesson04;
 
 
 public class TaskA3 {
-
-}
+   

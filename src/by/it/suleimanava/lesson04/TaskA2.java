@@ -24,6 +24,18 @@ package by.it.suleimanava.lesson04;
 
  */
 
+import java.util.Scanner;
+
 public class TaskA2 {
+    public static void main(String[] args) {
+
+        System.out.println(convertCelsiumToFahrenheit(40));
+
+    }
+
+    public static double convertCelsiumToFahrenheit(int TC){
+
+        return (double) (TC/5*9)+32;
+    }
 
 }
