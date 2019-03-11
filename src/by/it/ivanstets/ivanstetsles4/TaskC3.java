@@ -23,15 +23,13 @@ package by.it.ivanstets.ivanstetsles4;
 десять умножить на десять равно сто
 */
 
-import java.util.Stack;
-
 public class TaskC3 {
     public static void main(String[] args) {
         int i;
-        for (i=1; i<=10; i++){
-            int j=1;
-            while (j <= 10){
-                System.out.println(NumToText(i)+" умножить на " +NumToText(j)+ " равно "+ NumToText(i*j)+" ");
+        for (i = 1; i <= 10; i++) {
+            int j = 1;
+            while (j <= 10) {
+                System.out.println(NumToText(i) + " умножить на " + NumToText(j) + " равно " + NumToText(i * j) + " ");
                 j++;
             }
         }
@@ -119,13 +117,11 @@ public class TaskC3 {
             }
         }
 
-        if (a%10 != 0) {
+        if (a % 10 != 0) {
             return d + " " + NumToText((a % 10));
-        }
-        else {
+        } else {
             return d;
         }
-
 
 
     }
