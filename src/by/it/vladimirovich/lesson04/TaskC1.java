@@ -49,42 +49,63 @@ public class TaskC1 {
         else {
             for (int month = 0; month <= 14; month++) {
                 double salary;
-                switch (month) {
-                    case 0:
-                        System.out.println("За месяц 0 начислено $0.0");
-                    case 1:
-                        System.out.println();
-                    case 2:
-                        System.out.println();
-                    case 3:
-                        System.out.println();
-                    case 4:
-                        System.out.println();
-                    case 5:
-                        System.out.println();
-                    case 6:
-                        System.out.println("За июнь начислено $");
-                    case 7:
-                        System.out.println("За июль начислено $");
-                    case 8:
-                        System.out.println("За август начислено $");
-                    case 9:
-                        System.out.println();
-                    case 10:
-                        System.out.println();
-                    case 11:
-                        System.out.println();
-                    case 12:
-                        System.out.println();
-                    case 13:
-                        System.out.println("За месяц 13 начислено $0.0");
-                    case 14:
-                        System.out.println("За месяц 14 начислено $0.0");
+                if (month == 0)
+                    System.out.println("За месяц 0 начислено $0.0");
+                if (month == 1) {
+                    salary = amount * 1.5;
+                    System.out.println("За январь начислено $" + salary);
+                    if (salary == 666) break;
                 }
-
+                if (month == 2) {
+                    salary = amount * 1.5;
+                    System.out.println("За февраль начислено $" + salary);
+                }
+                if (month == 3) {
+                    salary = amount * 1.5;
+                    System.out.println("За март начислено $" + salary);
+                }
+                if (month == 4) {
+                    salary = amount * 1.5;
+                    System.out.println("За апрель начислено $" + salary);
+                }
+                if (month == 5) {
+                    salary = amount * 1.5;
+                    System.out.println("За май начислено $" + salary);
+                }
+                if (month == 6) {
+                    salary = amount;
+                    System.out.println("За июнь начислено $" + salary);
+                    if (salary == 666) break;
+                }
+                if (month == 7) {
+                    salary = amount;
+                    System.out.println("За июль начислено $" + salary);
+                }
+                if (month == 8) {
+                    salary = amount;
+                    System.out.println("За август начислено $" + salary);
+                }
+                if (month == 9) {
+                    salary = amount * 1.5;
+                    System.out.println("За сентябрь начислено $" + salary);
+                }
+                if (month == 10) {
+                    salary = amount * 1.5;
+                    System.out.println("За октябрь начислено $" + salary);
+                }
+                if (month == 11) {
+                    salary = amount * 1.5;
+                    System.out.println("За ноябрь начислено $" + salary);
+                }
+                if (month == 12) {
+                    salary = amount * 1.5;
+                    System.out.println("За декабрь начислено $" + salary);
+                }
+                if (month == 13)
+                    System.out.println("За месяц 13 начислено $0.0");
+                if (month == 14)
+                    System.out.println("За месяц 14 начислено $0.0");
             }
         }
-
     }
-
 }
