@@ -7,7 +7,7 @@ package by.it.chramtsov.lesson04;
 
 Например:
 Ввод:
-122
+\122
 Вывод:
 1,3,6,10,15,21,28,36,45,55,66,78,91,105,120,
 
@@ -31,8 +31,11 @@ public class TaskB3 {
     public static void main(String[] args) {
           Scanner sc=new Scanner(System.in);
                   int i = sc.nextInt();
-        for (int j = 1; j <i ; ) {
-            j=j+1;
+                  int x = 1;
+        System.out.print("1,");
+        for (int j = 1; x <i-j ; j++) {
+           x=x+j+1;
+            System.out.print(x+",");
 
         }
     }
