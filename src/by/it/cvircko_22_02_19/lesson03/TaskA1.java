@@ -1,4 +1,5 @@
 package by.it.cvircko_22_02_19.lesson03;
+import java.util.Scanner;
 
 /*
 Lesson 03. Task A1. Калькулятор.
@@ -27,12 +28,36 @@ Scanner sc=new Scanner(System.in);
 
 Ввод:
 7 2
-Вывод:
+Вывод:import java.util.Scanner;
 9 5 14 3 1
 9.0 5.0 14.0 3.5 1.0
 
  */
 
-class TaskA1 {
 
+
+class TaskA1  {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        int sub = a - b;
+        int mul = a * b;
+        int div = a / b;
+        int mod = a % b;
+        System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);
+
+        double zhopabobra = a;
+        double dsum = a + b;
+        double dsub = a - b;
+        double dmul = a * b;
+        double ddiv = zhopabobra / b* 1.0;
+        double dmod = a % b;
+
+        System.out.println(dsum + " " + dsub + " " + dmul + " " + ddiv + " " + dmod);
+
+    }
 }
+
+
