@@ -10,6 +10,40 @@ package by.it.suleimanava.lesson05;
 */
 
 
+import java.util.ArrayList;
+
+import java.util.Scanner;
+
+
+
 public class TaskB1 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        ArrayList<String> list = new ArrayList();
+
+        int listLength = 0;
+
+        for (int i = 0; i < 5; i++) {
+
+            String value = scanner.next();
+
+            list.add(value);
+
+            listLength = listLength + value.length();
+
+        }
+
+        System.out.println(listLength);
+
+        //for (int i = 0; i < list.size(); i++)
+
+        //    System.out.println(list.get(i));
+
+        for (String string : list) System.out.println(string);
+
+    }
 
 }
