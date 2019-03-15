@@ -22,7 +22,7 @@ public class TaskB1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        ArrayList<String> list = new ArrayList();
+        ArrayList<String> list = new ArrayList<>();
 
         int listLength = 0;
 
