@@ -25,6 +25,25 @@ package by.it.vladimirovich.lesson04;
 
 public class TaskC3 {
     public static void main(String[] args) {
+        for (int i = 2; i <= 10; i++)
+            for (int j = 2; j <= 10; j++)
+                System.out.println(strInt(i) + " умножить на " + strInt(j) + " равно " + strInt(i * j));
 
     }
-}
+
+
+
+    private static String strInt(int i) {
+        String[] small = {"ноль", "один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять", "десять", "одиннадцать", "двенадцать", "тринадцать", "четырнадцать", "пятнадцать", "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"};
+        String[] big = {"ноль", "десять", "двадцать", "тридцать", "сорок", "пятьдесят", "шестьдесят", "семьдесят", "восемьдесят", "девяносто", "сто"};
+        if (i<20)
+            return small[i];
+        int d = i/10;
+        int m = i%10;
+        if (m==0)
+            return big[d];
+        else
+            return big[d] + " " + small[m];
+
+}}
+

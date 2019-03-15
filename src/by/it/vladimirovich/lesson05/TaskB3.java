@@ -19,6 +19,30 @@ Index of last element=1
 
 */
 
-public class TaskB3 {
+import java.util.Scanner;
 
-}
+public class TaskB3 {
+    public static void main(String[] args) {
+        int[] array = new int[10];
+        Scanner sc=new Scanner(System.in);
+        for (int i = 0; i <array.length ; i++) {
+            array[i]=sc.nextInt();
+        }
+        int first=array[0];
+        int last=array[array.length-1];
+        for (int i = 1; i <array.length ; i++) {
+            for (int j = array.length-1; j >=i ; j--) {
+                if (array[j-1]>array[j]){
+                    int t=array[j-1];
+                    array[j-1] = array[j];
+                    array[j]=t;
+                }
+
+
+            }        }
+        for (int i = 0; i <array.length ; i++) {
+            if (array[i] == first) System.out.println("Index of first element=" + i);
+            if (array[i] == last) System.out.println("Index of last element=" + i);
+        }
+        }}
+
