@@ -4,6 +4,14 @@ public class Dog {
     private String name;
     private int age;
 
+    public Dog() {
+    }
+
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
@@ -20,4 +28,10 @@ public class Dog {
         if (age>=0)
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Кличка: "+name+". Возраст: "+age;
+
+}
 }
