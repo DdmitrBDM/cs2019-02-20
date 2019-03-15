@@ -1,46 +1,26 @@
 package by.it.chramtsov;
-
 /*
-Lesson 03. Конвертер температуры
+Три массива
+1.  Введите с клавиатуры 20 чисел, сохраните их в список и рассортируйте по трём другим спискам:
+    Число делится на 3 (x%3==0), делится на 2 (x%2==0) и все остальные.
+    Числа, которые делятся на 3 и на 2 одновременно, например 6, попадают в оба списка.
+2.  Статический метод void printList(List<Integer> list) должен выводить на экран
+    все элементы переданного ему списка list, каждый элемент - с новой строки.
+3.  Используя метод printList выведите ваши три списка на экран.
+    Сначала тот, который для x%3, потом тот, который для x%2, потом последний.
+*/
 
-Метод convertCelsiumToFahrenheit(int celsium) принимает значение в градусах Цельсия.
-Метод должен переводить температуру и возвращать значение в градусах Фаренгейта.
+import java.util.List;
 
-Температура по Цельсию TC и температура по Фаренгейту TF связаны следующим соотношением:
-TC = (TF – 32) * 5/9
+public class TaskC1 {
+    public static void main(String[] args) throws Exception
+    {
 
-Пример:
-В метод convertCelsiumToFahrenheit на вход подается значение 40.
+    }
 
-Пример вывода:
-104.0
+    private static void printList(List<Integer> list) {
+        for (Integer aList : list) System.out.println(aList);
+    }
 
-
-Требования:
-1. Метод convertCelsiumToFahrenheit(int) должен быть не приватным и статическим.
-2. Метод convertCelsiumToFahrenheit должен возвращать значение типа double.
-3. Метод convertCelsiumToFahrenheit не должен ничего выводить на экран.
-4. Метод convertCelsiumToFahrenheit должен правильно переводить градусы Цельсия
-в градусы Фаренгейта и возвращать это число.*/
-
-
-import java.util.Scanner;
-
-class TaskC1 {
-private static double convertCelsiumToFahrenheit(int celsium){
-   double tf= celsium*9/5 +32;
-return tf;
-
-}
-
-
-
-
-   public static void main(String[] args) {
-      Scanner sc=new Scanner(System.in);
-              int celsium = sc.nextInt();
-              double q=convertCelsiumToFahrenheit(celsium);
-      System.out.println(q);
-  }
 
 }
