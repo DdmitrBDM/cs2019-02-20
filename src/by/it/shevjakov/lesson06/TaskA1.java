@@ -28,7 +28,12 @@ package by.it.shevjakov.lesson06;
 */
 
 
+import java.util.Scanner;
 
 public class TaskA1 {
+    public static void main(String[] args) {
+        Dog dog=new Dog;
+
+    }
 
 }
