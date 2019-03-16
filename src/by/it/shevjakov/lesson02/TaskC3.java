@@ -29,8 +29,6 @@ package by.it.shevjakov.lesson02;
 
 
 */
-import java.math.RoundingMode;
-import java.math.BigDecimal;
 import java.util.Scanner;
 class TaskC3 {
 
@@ -39,9 +37,10 @@ class TaskC3 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        BigDecimal bigDecimal = i;
         int i = sc.nextInt();
         double  weight = getWeight(i);
+        weight = Math.round(weight * 100);
+        weight = weight/100;
         System.out.println(weight);
     }
 
