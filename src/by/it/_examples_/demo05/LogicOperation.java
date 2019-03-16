@@ -2,7 +2,7 @@ package by.it._examples_.demo05;
 
 public class LogicOperation {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         boolean a = true;
         boolean b = false;
 

@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Demonstrate the switch.
 class SwitchDemo {   
-  public static void main(String args[]) { 
+  public static void main(String[] args) {
     int i; 
  
     for(i=0; i<10; i++) 

@@ -2,7 +2,7 @@ package by.it.shevjakov.demo03;
 
 // Demonstrate block scope.
 class ScopeDemo { 
-  public static void main(String args[]) { 
+  public static void main(String[] args) {
     int x; // known to all code within main 
  
     x = 10; 

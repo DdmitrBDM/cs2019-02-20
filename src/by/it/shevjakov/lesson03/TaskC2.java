@@ -1,6 +1,5 @@
 package by.it.shevjakov.lesson03;
-/*
-    Сумма цифр четырехзначного числа
+/*  Сумма цифр четырехзначного числа
     Реализуйте метод sumDigitsInNumber(int number).
     Метод на вход принимает целое четырехзначное число.
     Нужно посчитать сумму цифр этого числа, и вернуть эту сумму.
@@ -15,13 +14,25 @@ package by.it.shevjakov.lesson03;
     4. Метод sumDigitsInNumber не должен ничего выводить на экран.
     5. Метод sumDigitsInNumber должен правильно возвращать сумму всех цифр в числе number.
 */
+
+import java.util.Scanner;
+
 public class TaskC2 {
     public static void main(String[] args) {
-        
-        sumDigitsInNumber(int number)
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int sum = sumDigitsInNumber(number);
+        System.out.println(sum);
     }
 
-    private static void sumDigitsInNumber(Object o) {
+    static int sumDigitsInNumber(int number) {
+        int sum = 0;
+        for (int x = 0; x < 4; x++) {
+            sum = sum + number % 10;
+            number = number / 10;
+        }
+        return sum;
     }
+
+
 }
-System.out.println(sumDigitsInNumber(5467));

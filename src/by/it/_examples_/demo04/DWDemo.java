@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Demonstrate the do-while loop.
 class DWDemo {   
-  public static void main(String args[])   
+  public static void main(String[] args)
     throws java.io.IOException { 
  
     char ch; 

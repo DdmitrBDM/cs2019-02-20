@@ -2,8 +2,8 @@ package by.it.shevjakov.demo05;
 
 // Demonstrate String arrays.
 class StringArrays {  
-  public static void main(String args[]) {  
-    String strs[] = { "This", "is", "a", "test." };  
+  public static void main(String[] args) {
+      String[] strs = {"This", "is", "a", "test."};
   
     System.out.println("Original array: ");  
     for(String s : strs)

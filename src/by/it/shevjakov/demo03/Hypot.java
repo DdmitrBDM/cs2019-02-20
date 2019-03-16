@@ -1,7 +1,7 @@
 package by.it.shevjakov.demo03;
 
 class Hypot {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         double x, y, z;
 
         x = 3;

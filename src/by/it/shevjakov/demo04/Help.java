@@ -3,7 +3,7 @@ package by.it.shevjakov.demo04;
    A simple help system.
 */ 
 class Help { 
-  public static void main(String args[])  
+  public static void main(String[] args)
     throws java.io.IOException { 
     char choice; 
  

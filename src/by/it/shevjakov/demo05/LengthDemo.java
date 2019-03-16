@@ -2,14 +2,14 @@ package by.it.shevjakov.demo05;
 
 // Use the length array member.
 class LengthDemo {  
-  public static void main(String args[]) {  
-    int list[] = new int[10];  
-    int nums[] = { 1, 2, 3 };  
-    int table[][] = { // a variable-length table  
-      {1, 2, 3},  
-      {4, 5},  
-      {6, 7, 8, 9}  
-    };  
+  public static void main(String[] args) {
+      int[] list = new int[10];
+      int[] nums = {1, 2, 3};
+      int[][] table = { // a variable-length table
+              {1, 2, 3},
+              {4, 5},
+              {6, 7, 8, 9}
+      };
   
     System.out.println("length of list is " + list.length);  
     System.out.println("length of nums is " + nums.length);  

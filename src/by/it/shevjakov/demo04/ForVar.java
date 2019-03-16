@@ -2,7 +2,7 @@ package by.it.shevjakov.demo04;
 
 // Declare loop control variable inside the for.
 class ForVar {   
-  public static void main(String args[]) { 
+  public static void main(String[] args) {
     int sum = 0; 
     int fact = 1; 
  

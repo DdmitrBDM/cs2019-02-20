@@ -1,7 +1,7 @@
 package by.it.shevjakov.demo05;
 
 public class Case {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //char grade = args[0].charAt(0);
         char grade = 'C';
 

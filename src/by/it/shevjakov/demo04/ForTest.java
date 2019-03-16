@@ -2,7 +2,7 @@ package by.it.shevjakov.demo04;
 
 // Loop until an S is typed.
 class ForTest {
-  public static void main(String args[])   
+  public static void main(String[] args)
     throws java.io.IOException { 
  
     int i; 

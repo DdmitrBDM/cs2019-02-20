@@ -2,7 +2,7 @@ package by.it.shevjakov.demo03;
 
 // Demonstrate the % operator.
 class ModDemo {    
-  public static void main(String args[]) {    
+  public static void main(String[] args) {
     int iresult, irem; 
     double dresult, drem; 
  

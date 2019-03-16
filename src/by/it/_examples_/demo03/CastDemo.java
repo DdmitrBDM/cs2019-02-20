@@ -2,7 +2,7 @@ package by.it._examples_.demo03;
 
 // Demonstrate casting.
 class CastDemo {    
-  public static void main(String args[]) {    
+  public static void main(String[] args) {
     double x, y; 
     byte b; 
     int i; 
