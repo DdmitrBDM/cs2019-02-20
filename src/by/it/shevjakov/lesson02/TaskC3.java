@@ -31,7 +31,6 @@ package by.it.shevjakov.lesson02;
 */
 import java.util.Scanner;
 class TaskC3 {
-
     private static double getWeight(int weight){
         return weight * 3.86/9.81;
     }
@@ -40,8 +39,7 @@ class TaskC3 {
         int i = sc.nextInt();
         double  weight = getWeight(i);
         weight = Math.round(weight * 100);
-        weight = weight/100;
-        System.out.println(weight);
+        System.out.println(weight/100);
     }
-
 }
+// Выводит правильный ответ, но тест не проходит.
