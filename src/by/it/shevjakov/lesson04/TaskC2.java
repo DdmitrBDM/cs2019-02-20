@@ -21,15 +21,18 @@ package by.it.shevjakov.lesson04;
 import java.util.Scanner;
 
 public class TaskC2 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int sum = a;
-        for (byte c = 2; c <= b; c++) {
+        int day = sc.nextInt();
+        int month = sc.nextInt();
+        int sum = day;
+        byte c = 2;
+        while (c <= month) {
             if (c == 2 || c == 4 || c == 6 || c == 8 || c == 9 || c == 11) sum = sum + 31;
             if (c == 3) sum = sum + 28;
             if (c == 5 || c == 7 || c == 10 || c == 12) sum = sum + 30;
+            c++;
         }
         System.out.println(sum);
     }
