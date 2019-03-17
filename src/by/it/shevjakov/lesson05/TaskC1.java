@@ -14,13 +14,7 @@ import java.util.List;
 
 public class TaskC1 {
     public static void main(String[] args) throws Exception
-    {
-
-    }
-
     private static void printList(List<Integer> list) {
         for (Integer aList : list) System.out.println(aList);
     }
-
-
 }

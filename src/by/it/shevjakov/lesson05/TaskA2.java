@@ -26,7 +26,7 @@ public class TaskA2 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         ArrayList<String> array=new ArrayList<>();
-        for (;;) {
+        while (true) {
             String value=scanner.next();
             if (value.equals("END"))
                 break;
