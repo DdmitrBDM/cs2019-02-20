@@ -7,7 +7,7 @@ package by.it._examples_.demo04;
     do-while to process a menu selection.
 */
 class Help2 {
-  public static void main(String args[])
+  public static void main(String[] args)
     throws java.io.IOException {
     char choice, ignore;
 

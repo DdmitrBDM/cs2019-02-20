@@ -1,7 +1,7 @@
 package by.it._examples_.demo05;
 
 public class ForEach3 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
 
         for (int x : numbers) {

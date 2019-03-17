@@ -2,7 +2,7 @@ package by.it._examples_.demo03;
 
 // A promotion surprise!
 class PromDemo {    
-  public static void main(String args[]) {    
+  public static void main(String[] args) {
     byte b; 
     int i; 
    

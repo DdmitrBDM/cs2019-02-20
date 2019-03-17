@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Using break with nested loops.
 class Break3 {  
-  public static void main(String args[]) {  
+  public static void main(String[] args) {
   
     for(int i=0; i<3; i++) {  
       System.out.println("Outer loop count: " + i);  

@@ -1,7 +1,7 @@
 package by.it._examples_.demo03;
 
 class CharArithDemo {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         char ch;
 
         ch = 'X';

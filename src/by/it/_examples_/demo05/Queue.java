@@ -4,8 +4,8 @@ package by.it._examples_.demo05;/*
    A queue class for characters. 
 */ 
  
-class Queue { 
-  char q[]; // this array holds the queue 
+class Queue {
+    char[] q; // this array holds the queue
   int putloc, getloc; // the put and get indices 
  
   Queue(int size) { 
