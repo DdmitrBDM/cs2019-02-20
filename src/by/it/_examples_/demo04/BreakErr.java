@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // This program contains an error.
 class BreakErr { 
-  public static void main(String[] args) {
+  public static void main(String args[]) { 
  
     one: for(int i=0; i<3; i++) { 
       System.out.print("Pass " + i + ": "); 

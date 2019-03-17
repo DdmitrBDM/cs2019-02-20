@@ -5,7 +5,7 @@ package by.it._examples_.demo04;
    between 2 and 100. 
 */ 
 class FindFac {   
-  public static void main(String[] args) {
+  public static void main(String args[]) { 
  
     for(int i=2; i <= 100; i++) { 
       System.out.print("Factors of " + i + ": "); 

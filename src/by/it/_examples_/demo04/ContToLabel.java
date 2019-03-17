@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Use continue with a label.
 class ContToLabel {   
-  public static void main(String[] args) {
+  public static void main(String args[]) { 
  
 outerloop: 
     for(int i=1; i < 10; i++) { 

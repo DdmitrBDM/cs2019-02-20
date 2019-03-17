@@ -6,7 +6,7 @@ package by.it._examples_.demo03;
   Call this file IfDemo.java.  
 */
 class IfDemo {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int a, b, c;
         a = 2;
         b = 3;

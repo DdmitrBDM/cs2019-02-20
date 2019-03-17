@@ -2,11 +2,11 @@ package by.it._examples_.demo05;
 
 // Demonstrate the Bubble sort with strings.
 class StrBubble {   
-  public static void main(String[] args) {
-      String[] strs = {
-              "this", "is", "a", "test",
-              "of", "a", "string", "sort"
-      };
+  public static void main(String args[]) {   
+    String strs[] = { 
+                     "this", "is", "a", "test", 
+                     "of", "a", "string", "sort"  
+                    }; 
     int a, b; 
     String t;   
     int size;   

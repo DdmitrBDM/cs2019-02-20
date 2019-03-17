@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Another example of using break with a label.
 class Break5 {  
-  public static void main(String[] args) {
+  public static void main(String args[]) {  
  
 done: 
     for(int i=0; i<10; i++) { 

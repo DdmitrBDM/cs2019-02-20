@@ -2,7 +2,7 @@ package by.it._examples_.demo04;
 
 // Use continue.
 class ContDemo {   
-  public static void main(String[] args) {
+  public static void main(String args[]) { 
     int i; 
  
     // print even number between 0 and 100 

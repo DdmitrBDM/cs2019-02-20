@@ -1,7 +1,7 @@
 package by.it._examples_.demo06.v9;
 
 class HelpClassDemo {
-  public static void main(String[] args)
+  public static void main(String args[])
     throws java.io.IOException {
     char choice, ignore;
     Help hlpobj = new Help();
