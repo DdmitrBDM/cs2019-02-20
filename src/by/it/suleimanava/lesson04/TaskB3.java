@@ -26,6 +26,30 @@ package by.it.suleimanava.lesson04;
 
 
 
+import java.util.Scanner;
+
+
+
 public class TaskB3 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int i = sc.nextInt();
+
+        int k = 0;
+
+        for (int j = 1; k <= i; j++) {
+
+            k = k + j;
+
+            if (k<=i)
+
+                System.out.print(k + ",");
+
+        }
+
+    }
 
 }
